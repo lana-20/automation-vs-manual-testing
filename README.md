@@ -6,11 +6,18 @@ I can assume you already buy into the idea that automation is a valuable skill o
 
 ### What is automation?
 
+<img width="400" src="https://user-images.githubusercontent.com/70295997/225440847-988c10a2-8cde-4dac-a6de-9ed4a195e883.png">
+
 First, let's talk about what automation even is. I know that we all have an idea of this, however vague. Automation is robots, or software, doing things over and over again so that humans don't have to. Indeed, the word "automatic" comes from two Greek words that together mean something which can will, drive, or act by itself. This doesn't imply of course that anything which is automatic is somehow intelligent, just that, given the right setup, instruction, and context, it can perform actions on its own without human intervention, or with minimal human intervention.
 
-Humans have been trying to get out of doing things by hand for a very long time. There are some quite old examples of mechanical automation, from a clock powered by the flow of water, to a weaving loom which can put together a piece of cloth on its own, using a set of punch cards as input to say what sort of pattern should be woven.
+Humans have been trying to get out of doing things by hand for a very long time. There are some quite old examples of **mechanical automation**, from a clock powered by the flow of water, to a weaving loom which can put together a piece of cloth on its own, using a set of punch cards as input to say what sort of pattern should be woven.
 
-But with the advent of the industrial revolution, simple mechanical techniques became a lot more powerful with the addition of steam and electricity which could be used as a power source. Now, 'automation' was more than just a thing for wild inventors and hobbyists. It became the backbone of social production. It was, of course, still very much intertwined with human work, and required an awful lot of intervention. Eventually, all of this innovation paved the way for a totally different type of automation---the electrical computer, built on top of hundreds and hundreds of electrical circuits! Now, mathematical calculations could be performed perfectly, correctly, and almost instantaneously!
+<img width="600" src="https://user-images.githubusercontent.com/70295997/225441307-43014bbe-bd07-4a8f-9b23-5f795de7c263.png">
+
+But with the advent of the **industrial revolution**, simple mechanical techniques became a lot more powerful with the addition of steam and electricity which could be used as a power source. Now, 'automation' was more than just a thing for wild inventors and hobbyists. It became the backbone of social production. It was, of course, still very much intertwined with human work, and required an awful lot of intervention. Eventually, all of this innovation paved the way for a totally different type of automation---the electrical computer, built on top of hundreds and hundreds of electrical circuits. Now, mathematical calculations could be performed perfectly, correctly, and almost instantaneously.
+
+<img width="600" src="https://user-images.githubusercontent.com/70295997/225442117-0840ab9e-a456-48f9-a958-79eddbd2666d.png">
+
 
 This jump from the world of trains and horseless carriages to the world of information was really, really important for us. At one particular point in this history of automation, an MIT grad student named Claude Shannon took ideas that had existed for a long time, from philosophers and mathematicians like Leibniz and George Boole, and applied them to electrical circuits. With this insight, the idea of a binary digit, or a bit, was put to work in concrete ways, and all kinds of logical calculations could all of a sudden be performed at the speed of electricity. This brought the possibility of automation to information, which is the world we now inhabit. Everything we do on computers nowadays is fundamentally built off of these very basic insights, which is why it's really interesting and important to review them.
 
