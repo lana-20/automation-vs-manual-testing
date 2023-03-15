@@ -30,19 +30,26 @@ When you stop and think about it, it is quite incredible that we can use the ver
 
 <img width="450" src="https://user-images.githubusercontent.com/70295997/225445903-732ab4ca-9828-41fb-8a11-47fe486346c5.png">
 
-### The usefulness of automation
+### Usefulness of Automation
+
+<img width="500" src="https://user-images.githubusercontent.com/70295997/225446427-d88bdc6e-2835-4307-836e-e0eed693632f.png">
 
 So that's all about what automation is. But what is the promise of it for us? Like the many people who have turned to automation before us, automation is always there to solve a specific problem, usually one that we have already figured out how to solve by hand. Software testing is a good example. It's usually pretty straightforward for us as human beings to be given some software and to figure out how to test it. I say usually because there are actually lots and lots of ways that make this much more difficult than we might otherwise think. But, in the normal case, since we are users of software, we can just go about using software and seeing what happens, as a way of testing it.
 
 But at this point, we can run into various kinds of problems.
 
-1. First, we could start to get bored, or tired. We could lose interest, and make mistakes, ultimately making our testing itself poor quality (which is an ironic thing, because testing is supposed to be helping to determine the quality of something else! So how can it do that if it itself is not of the highest quality?)
-2. Second, we could realize that we could never in a million years test a given piece of software. There might be too many variables to test. Too many scenarios. Or the software itself might be so slow that we can only run through a certain number of testcases before we grow old and perish.
-3. Third, we could have difficulty setting up an appropriate test environment. What if we want to test the software that powers an airplane? Do we need to become pilots ourselves in order to test it adequately? Or if we're not pilots, how do we set up a context where we can test the software?
-4. Fourth, we could realize that we don't understand the software well enough to test it. Airplane software is another good example. If I'm not a pilot, and in fact if I'm not an aerospace engineer, how would I be able to determine if the software is even working correctly?
-5. There are all kinds of problems like these that we could run into. Automation can't help us with all of them. But it can help us with problems like the 1st problem, where we get bored and tired. If the steps we take to test a given piece of software or a given scenario are repetitive and simple enough for us to get bored, then maybe can find a way to make a computer do those things instead of us! After all, software is just the flow of information, specified as code or data, and so there should be a way to write other software to provoke and observe the app that we want to test, for the purpose of testing it.
+1. 📱 ➕ 😴 🟰 ⁉️ First, we could start to get bored, or tired. We could lose interest, and make mistakes, ultimately making our testing itself poor quality (which is an ironic thing, because testing is supposed to be helping to determine the quality of something else! So how can it do that if it itself is not of the highest quality?)
+2. 📱📱📱📱 ➕ 😲 🟰 ⁉️ Second, we could realize that we could never in a million years test a given piece of software. There might be too many variables to test. Too many scenarios. Or the software itself might be so slow that we can only run through a certain number of testcases before we grow old and perish.
+3. 📱📱📱 ➕ 🛩️ 🟰 ⁉️ Third, we could have difficulty setting up an appropriate test environment. What if we want to test the software that powers an airplane? Do we need to become pilots ourselves in order to test it adequately? Or if we're not pilots, how do we set up a context where we can test the software?
+4. 📱📱🛩️ ➕ 👩‍💻 🟰 ⁉️ Fourth, we could realize that we don't understand the software well enough to test it. Airplane software is another good example. If I'm not a pilot, and in fact if I'm not an aerospace engineer, how would I be able to determine if the software is even working correctly?
 
-Automation can also help us with situations like the second problem we mentioned, where there are just too many scenarios to test, or they take too long to test. Using automation, we can speed up the process of testing, as long as the techniques we use work faster than a human. We can also usually scale up the number of automated testers much more easily than we can scale up the number of human testers, since the automated testers are just pieces of software.
+<img width="600" src="https://user-images.githubusercontent.com/70295997/225448097-52817a17-c85b-4a7e-b6f7-879e6b040c59.png">
+
+There are all kinds of problems like these that we could run into. Automation can't help us with all of them. But it can help us with problems like the 1st problem, where we get bored and tired. If the steps we take to test a given piece of software or a given scenario are repetitive and simple enough for us to get bored, then maybe can find a way to make a computer do those things instead of us! After all, software is just the flow of information, specified as code or data, and so there should be a way to write other software to provoke and observe the app that we want to test, for the purpose of testing it.
+
+Automation can also help us with situations like the 2nd problem we mentioned, where there are just too many scenarios to test, or they take too long to test. Using automation, we can speed up the process of testing, as long as the techniques we use work faster than a human. We can also usually scale up the number of automated testers much more easily than we can scale up the number of human testers, since the automated testers are just pieces of software.
+
+### Benefits of Automation
 
 So these are the main benefits of automation over manual testing:
 
@@ -52,6 +59,13 @@ So these are the main benefits of automation over manual testing:
 Obviously, all of this changes the fundamental role of humans in the testing process. Are they still necessary anymore? Does automation make testing so cheap and easy that we don't need human testers? Not exactly.
 
 ### The place of manual testing
+
+The Place of Humans in an Automated World |
+---- |
+(Good) test cases don't write themselves (yet). |
+Humans are the ultimate judge of the quality of software written for human users. |
+Manual testing to diminish, probably not disappear. |
+Automation skills are important, but must be kept up to date, and new technologies explored. |
 
 There are two ways in which humans are still very important even in a world of automated testing. The first is that the whole business of automated testing still needs to be run by humans. At least for the time being, testcases are not automatically generating themselves, nor automated test scripts written by themselves. This is being challenged, however, by work in the field of AI for testing. It's worth paying attention to developments in this field, because there are approaches being explored right now that attempt to discover some elements of app quality in a completely "hands-off" way, by using artificially intelligent testing bots. At the moment, these bots have somewhat limited scope and utility. All this to say, for some time to come, human authoring of automated test cases is an important role, just as is human development of application software.
 
